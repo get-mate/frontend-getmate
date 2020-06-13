@@ -1,0 +1,303 @@
+.mate-main-page{
+    display: flex;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+
+/*Get-Mate World*/
+.vertical-menu {
+    border-radius: 7px;
+    position: relative;
+    margin-top: 35px;
+    min-width: 300px;
+    max-width: 300px;
+    z-index: 1001;
+    background: #fff;
+    bottom: 0;
+    top: 70px;
+    box-shadow: 0 0.75rem 1.5rem rgba(18,38,63,.03);
+}
+
+.vertical-menu .user-img img {
+    padding: 6px;
+    border: 2px dashed #3b5de7;
+}
+
+.avatar-md {
+    height: 4.5rem;
+    width: 4.5rem;
+}
+
+.font-weight-medium {
+    font-weight: 500 !important;
+}
+
+.font-size-16 {
+    font-size: 16px!important;
+}
+
+.font-size-13 {
+    font-size: 13px!important;
+    height: 1em;
+}
+
+.text-body {
+    color: #8687a7!important;
+}
+
+.text-dark {
+    color: #343a40!important;
+}
+
+#sidebar-menu {
+    padding-bottom: 90px;
+    padding: 0 0 30px 0;
+}
+
+.metismenu {
+    height: 200px;
+}
+
+.metismenu li {
+    display: block;
+    width: 100%;
+}
+
+.menu-title {
+    padding: 12px 20px!important;
+    letter-spacing: .05em;
+    pointer-events: none;
+    cursor: default;
+    font-size: 16px;
+    text-transform: uppercase;
+    color: #273c92;
+    font-weight: 600;
+}
+
+#sidebar-menu ul li a {
+    display: block;
+    padding: .625rem 1.5rem;
+    color: #707d8a;
+    position: relative;
+    font-size: 14.4px;
+    -webkit-transition: all .4s;
+    transition: all .4s;
+}
+
+.waves-effect {
+    cursor: pointer;
+    overflow: hidden;
+    user-select: none;
+    -webkit-tap-highlight-color: transparent;
+}
+
+#sidebar-menu ul li a img {
+    display: inline-block;
+    padding-bottom: .125em;
+    font-size: 1.2rem;
+    vertical-align: middle;
+    color: #707d8a;
+    -webkit-transition: all .4s;
+    transition: all .4s;
+}
+
+.profile-avatar-sd {
+    height: 1.5rem;
+    width: 1.5rem;
+}
+
+.profile-name-sd{
+    padding: 4px 5px 0px 10px;
+}
+
+#sidebar-menu ul li .badge {
+    margin-top: 4px;
+    padding-bottom: 4px;
+}
+
+/*Connected friends*/
+
+.panel{
+    z-index: 1002;
+    position: fixed;
+    bottom: 2px;
+    left: 15px;
+    width: 300px;
+}
+
+.form-btn-primary-div{
+    text-align: center;
+    margin: 0 auto;
+    color: white;
+    width: 100%;
+}
+
+.form-btn-primary{
+    margin-top: 10px;
+    padding: 5px 25px;
+}
+
+.panel-heading{
+    background-color: #3b5de7;   
+    padding: 10px;
+}
+
+.panel-heading a{
+    color: white;
+    text-decoration: none;
+}
+
+.panel-body
+{
+    overflow-y: scroll;
+    height: 120px;
+}
+
+.panel-body-row{
+    padding: 10px 5px;
+    display: flex;
+}
+
+.panel-profile-avatar-sd{
+    height: 2rem;
+    width: 2rem;
+}
+
+/*Get-Mate-Experience*/
+.main-content {
+    width: 100%;
+    margin-left: 0;
+    position: relative;
+    min-height: 100vh;
+    padding-bottom: 60px;
+    overflow: hidden;
+}
+
+.page-content{
+    margin-top: 16px;
+    padding-bottom: 0;
+    padding: calc(70px + 12px) 24px 60px 24px;
+}
+
+.page-title-box {
+    position: relative;
+    z-index: 1;
+    padding-bottom: 24px;
+}
+
+.page-title-box .page-title {
+    color: #fff;
+    line-height: 70px;
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 16px!important;
+}
+
+.page-title-box .breadcrumb {
+    background-color: transparent;
+    padding: 0;
+}
+
+.page-title-box .breadcrumb-item.active {
+    color: rgba(255,255,255,.6);
+}
+
+.form-card{
+    margin-bottom: 24px;
+    -webkit-box-shadow: 0 0.75rem 1.5rem rgba(18,38,63,.03);
+    box-shadow: 0 0.75rem 1.5rem rgba(18,38,63,.03);
+    position: relative;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    flex-direction: column;
+    min-width: 600px;
+    background-color: #fff;
+    background-clip: border-box;
+    border: 0 solid #f6f6f6;
+    border-radius: .25rem;
+}
+
+.form-card-body {
+    min-height: 50px;
+    padding: 2rem;
+}
+
+.form-title{
+    color: #273c92;
+    text-align: center;
+    margin: 0 auto;
+    padding: 0px 0px 25px 0px;
+    font-weight: 550;
+    font-size: 25px!important;
+}
+.col-form-label{
+    color: black !important;
+    font-size: 16px !important;
+}
+
+.custom-file-label{
+    margin-left: 14px;
+    margin-right: 14px;
+}
+
+/*Your Get-Mate Post*/
+.media{
+    min-height: 20px;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #e3e3e3;
+    border-radius: 4px;
+    box-shadow: inset 0 1px 1px rgba(0,0,0,.05);
+    color: black;
+    display: block !important;
+}
+
+.post-media-heading
+{
+    padding-left: 50px;
+    padding-top: 5px;
+}
+
+.post-media-heading h4{
+    font-weight: 600 !important;
+}
+
+.post-media-heading span{
+    color: gray;
+    font-size: 12px;
+}
+
+.post-details{
+    margin-top: 10px;
+}
+
+.post-details p{
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.post-details ul>li{
+    float: left;
+    padding-right: 5px;
+    color: gray;
+}
+
+.post-details ul>li i{
+    padding-right: 5px;
+}
+
+.write-post-media-heading{
+    display: flex;
+    justify-content: space-between;
+    padding-left: 10px;
+    padding-top: 5px;
+}
+
+.write-post-media-heading h4{
+    font-weight: 600;
+}
+
+.post-button{
+    padding: 0px 5px !important;
+}

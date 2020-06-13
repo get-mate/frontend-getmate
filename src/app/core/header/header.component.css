@@ -1,0 +1,50 @@
+#page-topbar{
+    position: absolute;
+}
+
+#page-topbar{
+    background: rgba(255,255,255,.06);
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 1002;
+    box-shadow: 0 1px 2px rgba(0,0,0,.075);
+    display: block;
+}
+
+.navbar-header{
+    display: flex;
+    -webkit-box-pack: justify;
+    justify-content: space-between;
+    -webkit-box-align: center;
+    align-items: center;
+    margin: 0 auto;
+    height: 70px;
+}
+
+.header-item{
+    color: #e9ecef;
+    height: 70px;
+    box-shadow: none!important;
+    border: 0;
+    border-radius: 0;
+}
+
+.waves-effect {
+    position: relative;
+    display: inline-block;
+    overflow: hidden;
+    user-select: none;
+    -webkit-tap-highlight-color: transparent;
+}
+
+.header-profile-user {
+    height: 36px;
+    width: 36px;
+    padding: 3px;
+    background-color: rgba(255,255,255,.25);
+}
+
+.navbar-header .dropdown.show .header-item {
+    background-color: rgba(255,255,255,.09);
+}
